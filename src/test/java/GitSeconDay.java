@@ -8,5 +8,8 @@ public static void main(String[] args) {
 	loadUrl("https://www.facebook.com/");
 	WebElement txtLogin = driver.findElement(By.id("login"));
 	txtLogin.sendKeys("madhuri");
+	WebElement btnsignin = driver.findElement(By.id("signin"));
+	btnsignin.click();
+	
 }
 }
